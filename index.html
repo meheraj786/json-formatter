@@ -19,9 +19,11 @@
   <div id="main">
     <div class="input">
       <h2>Input your JSON</h2>
-      <textarea name="json" id="jsonInput"></textarea>
+      <textarea name="json" id="jsonInput">
+        {"status":true,"data":[{"brand":"Apple ","phone_name":"iPhone 13 mini","slug":"apple_iphone_13_mini-11104","image":"https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13-mini.jpg"},{"brand":"Apple ","phone_name":"iPhone 13 Pro","slug":"apple_iphone_13_pro-11102","image":"https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13-pro.jpg"},{"brand":"Apple ","phone_name":"iPhone 13 Pro Max","slug":"apple_iphone_13_pro_max-11089","image":"https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13-pro-max.jpg"},{"brand":"Apple ","phone_name":"iPhone 13","slug":"apple_iphone_13-11103","image":"https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13.jpg"},{"brand":"Samsung ","phone_name":"Galaxy A13 5G","slug":"samsung_galaxy_a13_5g-11149","image":"https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a13-5g-.jpg"}]}
+      </textarea>
     </div>
-    <button>Format this shit</button>
+    <button onclick="submit()">Format this shit</button>
     <div class="output">
       <h2>Your Formatted JSON</h2>
       <textarea name="json" id="jsonOutput"></textarea>
@@ -29,6 +31,6 @@
   </div>
 
 
-  <script src="script.js"></script>
+  <script src="./script.js"></script>
 </body>
 </html>
