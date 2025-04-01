@@ -12,7 +12,7 @@ function submit() {
       }
 
       let jsonObj = JSON.parse(jsonText); 
-      let formattedJson = JSON.stringify(jsonObj, null, 4);
+      let formattedJson = JSON.stringify(jsonObj, null, 2);
 
       outputArea.value = formattedJson; 
     }
